@@ -9,6 +9,7 @@ const Hero = ({ img, title, subtitle, description, text, buttonText, buttonLink 
 			<Container>
 				<div className={styles.hero}>
 					<div>
+						<p>dasdasd</p>
 						<GatsbyImage image={getImage(img.file)} alt="hero_image" className={styles.heroImage} />
 					</div>
 					<div>
@@ -22,6 +23,7 @@ const Hero = ({ img, title, subtitle, description, text, buttonText, buttonLink 
 									{buttonText}
 								</Button>
 							)}
+
 						</div>
 					</div>
 				</div>
