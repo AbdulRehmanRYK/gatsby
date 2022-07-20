@@ -1,37 +1,27 @@
 import React from "react"
 import LayoutWrapper from "components/layout/LayoutWrapper"
 import { Button, Container, Col, Row } from "react-bootstrap"
-import Formpage from "components/base/Form"
+import Welcome from "components/pages/welcome"
+import Servicepage from "components/pages/serve"
+import ChooseUspage from "components/pages/ChooseUs"
+import Customepage from "components/pages/Custome"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Home = () => {
 	return (
 		<>
 			<LayoutWrapper>
 				<Container>
-					<h1>Adipisicing elit dlias feleniti</h1>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatum, laudantium, reiciendis neque
-						molestias quibusdam unde maxime rem libero error ad, hic consequuntur quaerat nulla a minima ratione non
-						incidunt officiis at natus tempora consectetur eius? Illo perferendis, sed porro dolorem quis fuga eius ad
-						sunt ex similique error laboriosam!
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet accusantium doloribus, totam
-						reiciendis similique assumenda aliquam doloremque ab, explicabo minima, ducimus dolor fugiat! Architecto
-						eveniet in aut incidunt illo nihil numquam illum a cumque rem, expedita officiis magnam veniam culpa harum
-						nesciunt praesentium debitis excepturi facere. Sint, non esse.
-					</p>
-
-					<Row sm="auto" className="g-2">
-						<Col>
-							<Button variant="primary">Primary</Button>
-						</Col>
-						<Col>
-							<Button variant="secondary">Secondary</Button>
-						</Col>
-					</Row>
-					<Formpage></Formpage>
+					<div className=" row" style={{ width: "100%" }}>
+						<div className=" mx-auto">
+							<StaticImage src="../assets/images/blue_banner.png" alt="" style={{marginTop:'150px',marginBottom:'150px',width:'auto'}} />
+						</div>
+					</div>
 				</Container>
+				<Welcome></Welcome>
+				<Servicepage></Servicepage>
+				<ChooseUspage></ChooseUspage>
+				<Customepage></Customepage>
 			</LayoutWrapper>
 		</>
 	)
