@@ -1,6 +1,7 @@
 import React from "react"
 import LayoutWrapper from "components/layout/LayoutWrapper"
 import { Button, Container, Col, Row } from "react-bootstrap"
+import Formpage from "components/base/Form"
 
 const Home = () => {
 	return (
@@ -29,6 +30,7 @@ const Home = () => {
 							<Button variant="secondary">Secondary</Button>
 						</Col>
 					</Row>
+					<Formpage></Formpage>
 				</Container>
 			</LayoutWrapper>
 		</>
