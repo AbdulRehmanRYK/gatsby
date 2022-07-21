@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
 import * as styles from './styles.module.scss'
 import { StaticImage } from "gatsby-plugin-image";
 import { Card, Button,Container,Row, Col} from "react-bootstrap";
+
 const Servicepage=()=>{
     const width=50;
     return(
