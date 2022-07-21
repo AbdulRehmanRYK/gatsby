@@ -37,7 +37,7 @@ const Servicepage=()=>{
             </Col>
             <Col lg={2} md={3} sm={4} xs={9}  className={styles.cardpadding}>
                 <Card className={styles.card} >
-                <StaticImage className={styles.cardPic} src="../../../assets/images/web.png" alt="" />
+                <StaticImage className={styles.cardPic} src="../../../assets/images/mob.png" alt="" />
                     <Card.Body>
                         <Card.Text>
                             Mobile App Development 
