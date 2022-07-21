@@ -68,6 +68,7 @@ const HeaderTwo=() =>{
                 <li className="nav_item"><a href="/projects"className="nav_link">PROJECTS</a></li>
                 <li className="nav_item"><a href="/iptv" className="nav_link">IPTV</a></li>
                 <li className="nav_item"><a href="/career" className="nav_link">CAREER</a></li>
+                <li className="nav_item"><a href="/jobapply" className="nav_link">JOB APPLY</a></li>
              </ul>
               <Button className="headerbtn" onClick={()=>{navigate('/login/')}} >
                   <span className="me-2">
@@ -76,7 +77,7 @@ const HeaderTwo=() =>{
                       </svg>
                   </span>
                       Sign In
-                 </Button>
+              </Button>
              <div onClick={navToggle} className={toggleIcon}>
                 <div className="line1"></div>
                 <div className="line2"></div>

@@ -15,7 +15,7 @@ const Mobilepage =() =>{
                 </Row>
                 <Row  xs={1} md={2}  className={styles.mainmobile}>
                     <Col sm={12} md={4}  className={styles.mobpic}>
-                        <StaticImage height={height} className={styles.picststic} src="../../../assets/images/Web.png"></StaticImage>
+                        <StaticImage height={height} className={styles.picststic} src="../../../assets/images/mob.png"></StaticImage>
                     </Col>
                     <Col className={styles.mobparagraph} sm={12} md={8}  >
                     <p >Custom web development offers options for businesses who seek to provide a flexible, consistent experience for users across platforms. Leveraging new approaches to web development including progressive web apps, we bring front-end, back-end and architecture ability together to deliver</p>
@@ -45,12 +45,12 @@ const Mobilepage =() =>{
                             <p className={styles.mobheading}>IOS</p>
                         </div>      
                     </Col>
-                    <Col lg={3} md={4} sm={6} xs={9}>
+                    {/* <Col lg={3} md={4} sm={6} xs={9}>
                         <div className={styles.mobblock}>
                         <StaticImage className={styles.mobstatic} src="../../../assets/images/Androidd.png "></StaticImage>
                             <p className={styles.mobheading}>Android</p>
                         </div>      
-                    </Col>
+                    </Col> */}
                     
                 </Row>
             </div>           

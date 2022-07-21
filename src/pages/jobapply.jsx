@@ -1,19 +1,19 @@
 import React,{useState} from "react"
 import LayoutWrapper from "components/layout/LayoutWrapper"
-// import {  Container } from "react-bootstrap"
-import KeyNotesCard from "components/pages/KeyNotesCard"
-import ProjectCard from "components/pages/CareerCard"
+ import JobFormpage from "components/pages/JobForm"
+import CareerstartPage from "components/pages/careerstart"
 
 
-const AdminProject = () => {
+
+const Jobapply = () => {
     const [title,setTitle]=useState('Projects')
     const [btnTitle,setBtnTitle]=useState('Project')
 	return (
 		<>
 		<LayoutWrapper>
             <div>
-                <KeyNotesCard/>
-				<ProjectCard/>
+				<CareerstartPage></CareerstartPage>
+				<JobFormpage></JobFormpage>
             </div>
 		</LayoutWrapper>
 			
@@ -21,4 +21,4 @@ const AdminProject = () => {
 	)
 }
 
-export default AdminProject;
+export default Jobapply;

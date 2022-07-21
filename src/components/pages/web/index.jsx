@@ -31,7 +31,7 @@ const Webpage =() =>{
                     <Col lg={3} md={4} sm={6} xs={9}   >
                         <div className={styles.webblock}>
                        
-                        <StaticImage className={styles.webstatic} src="../../../assets/images/Web-nodeJS 1.png"></StaticImage>
+                        <StaticImage className={styles.webstatic} src="../../../assets/images/Web-nodeJS.png"></StaticImage>
                             <p className={styles.webheading}>NodeJS</p>
                         </div>      
                     </Col>
@@ -49,7 +49,7 @@ const Webpage =() =>{
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={9}>
                         <div className={styles.webblock}>
-                        <StaticImage className={styles.webstatic} src="../../../assets/images/Web-mongoDB 1.png"></StaticImage>
+                        <StaticImage className={styles.webstatic} src="../../../assets/images/Web-mongoDB.png"></StaticImage>
                             <p className={styles.webheading}>Mongo DB</p>
                         </div>      
                     </Col>
