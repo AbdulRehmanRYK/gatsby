@@ -87,7 +87,7 @@ const Projectslide=()=>{
                     </div>  
                 </div> 
                 <div className={styles.cardOuterRow} >  
-                    <div className={styles.carddiv6}>
+                    {/* <div className={styles.carddiv6}>
                         <p className={styles.category} >Category</p>  
                         <h3 className={styles.projectname}>Project Name</h3> 
                             <div className={styles.divvv} >
@@ -106,8 +106,8 @@ const Projectslide=()=>{
                                 </button>
                                 <StaticImage  src="../../../assets/images/Choose.png"></StaticImage>
                             </div> 
-                    </div>   
-            </div>
+                    </div>    */}
+                </div>
        
         </>
     )
