@@ -103,6 +103,35 @@ body{
     .nav_toggler{
         margin-right: 40px;
     }
+    .nav_toggler{
+        display:block
+    }
+    .nav_menue{
+        margin-left: 0px;
+    }
+   
+    .nav_menue{
+        display:flex;
+        position: fixed;
+        justify-content:  flex-start;
+        margin-top: 10px;
+        top: 5vh !important;
+        right: 0;
+        width: 50%;
+        height: 94vh;
+        background: #FFFFFF;
+        color: $header-btn!important;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        font-size: 24px;
+        font-weight:500;
+        line-height: 21px;
+        // font-family: "Roboto";
+        font-style: normal;
+        color: $header-btn!important;
+        margin-left: 300px;
+    }
 }
 @media screen and (max-width:572px) {
     .media{
@@ -121,6 +150,9 @@ body{
     .nav_toggler{
         margin-right: 15px;
     }
+    .nav_menue{
+        top: 6vh !important;
+    }
 }
 @media screen and (max-width:838px) {
     div.requestQuote{
@@ -131,38 +163,38 @@ body{
     }
     
 }
-@media screen and (max-width:768px) {
-    .nav_toggler{
-        display:block
-    }
-    .nav_menue{
-        margin-left: 0px;
-    }
+// @media screen and (max-width:768px) {
+//     .nav_toggler{
+//         display:block
+//     }
+//     .nav_menue{
+//         margin-left: 0px;
+//     }
    
-    .nav_menue{
-        display:flex;
-        position: fixed;
-        justify-content:  flex-start;
-        margin-top: 10px;
-        top: 9vh;
-        right: 0;
-        width: 50%;
-        height: 93vh;
-        background: #FFFFFF;
-        color: $header-btn!important;
-        flex-direction: column;
-        transform: translateX(100%);
-        transition: 0.5s ease-in;
-        font-size: 24px;
-        font-weight:500;
-        line-height: 21px;
-        // font-family: "Roboto";
-        font-style: normal;
-        color: $header-btn!important;
-        margin-left: 300px;
-    }
+//     .nav_menue{
+//         display:flex;
+//         position: fixed;
+//         justify-content:  flex-start;
+//         margin-top: 10px;
+//         top: 5vh;
+//         right: 0;
+//         width: 50%;
+//         height: 94vh;
+//         background: #FFFFFF;
+//         color: $header-btn!important;
+//         flex-direction: column;
+//         transform: translateX(100%);
+//         transition: 0.5s ease-in;
+//         font-size: 24px;
+//         font-weight:500;
+//         line-height: 21px;
+//         // font-family: "Roboto";
+//         font-style: normal;
+//         color: $header-btn!important;
+//         margin-left: 300px;
+//     }
    
-}
+// }
 .nav_active{
     transform: translateX(0);
 

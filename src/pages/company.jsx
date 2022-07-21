@@ -10,10 +10,9 @@ const Companypage = () => {
 		<>
 		<LayoutWrapper>
 			<Aboutpage></Aboutpage>
-			<Container>
-				<Formpage></Formpage>
-			
-			</Container>
+				<Container>
+					<Formpage></Formpage>
+				</Container>
 		</LayoutWrapper>
 			
 		</>

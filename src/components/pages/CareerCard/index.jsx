@@ -1,11 +1,10 @@
 import React,{useState} from "react";
-import { Popconfirm,Container,Row,Col,Button,Modal } from "react-bootstrap";
+import {Row,Col } from "react-bootstrap";
 import {Form, Input} from "antd";
 import * as styles from './styles.module.scss';
 const InfoCard=()=>{
     return(
         <>
-        
             <div className={styles.careerMain}>
                 <Row>
                     <Col>

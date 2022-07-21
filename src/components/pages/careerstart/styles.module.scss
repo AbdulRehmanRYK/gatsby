@@ -1,45 +1,48 @@
 @import "../../../scss/variables.scss";
-
-.mainmobile{
+.cs{
+    margin: 0px;
+    justify-content:center; 
+}
+.mainIptv{
     margin: 0px;
     justify-content:center;
     // margin:10px;
     padding-bottom: 50px;
 }
-.mainmobile1{
+.csmainIptv1{
     margin: 0px;
-    justify-content:space-evenly;
+    justify-content:center;
     // margin:10px;
-    // padding-bottom: 100px;
+    // padding-bottom: 50px;
 }
-.mainmobilerow{
-    background-color: $pink;
+
+.csmainIptvrow{
+    background-color: $gray;
     
 }
-.mob_heading{
-    color: $offwhite;
+.cs_heading{
+    color: $txt-white;
     font-style: normal;
-    font-size: 3.5rem;
     font-weight: 700;
-    line-height: 63px;
+    font-size: 4rem;
+    line-height: 42px;
     text-align: center;
+    // padding-top: 30px;
     padding-top: 50px;
-    // padding-left: 100px;
-    // padding-bottom: 10px;
+    
 }
-.mobparagraph{
+.csParagraph{
     //  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2.2rem;
-    line-height: 1.5;
-    letter-spacing: 0;
-    text-align: start;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 2rem;
+     line-height: 28px;
+     text-align: center;
      color: $txt-white;
      padding: 20px;
-     margin-top: 43px;
+    //  margin-top: 43px;
  }
-.mobpic{
+.Iptvpic{
     text-align: center;
    padding-bottom: 20px;
    padding: 30px;
@@ -49,38 +52,44 @@
 // .picststic{
 //     // margin-top: -15px;
 // }
-.mobtool{
+.Iptvtool{
     font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
+    font-weight: 300;
+    font-size: 18px;
     line-height: 28px;
     text-align: start;
     color: $txt-white;
-    // padding: 20px;
-     margin-left: 15px;
+ // padding: 20px;
+ margin-left: 15px;
 }
-.mobblock{
+.Iptvblock{
     // width: 18%;
-    height: 220px;
+    height: 260px;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
+    justify-content: space-evenly;
     margin-top: 20px;
     // padding: 10px;
     background-color: $offwhite;
 }
-.mobstatic{
+.Iptvstatic{
     height: 100px;
     margin-top: 10px;
     // padding: 20px;
     text-align: center;
 }
-.mobheading{
-    text-align: center;
-    padding-top: 25px;
-    font-weight: 400;
-    font-size: 2rem;
+.IptvHeading{
+    // font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+padding-top: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
 }

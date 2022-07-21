@@ -8,11 +8,11 @@ const Iptvpage = () => {
 	return (
 		<>
 			<LayoutWrapper>
-			<Lookingpage></Lookingpage>
-			<IPTVPage></IPTVPage>
-			<Container>
-				<Formpage></Formpage>
-			</Container>
+				<Lookingpage></Lookingpage>
+				<IPTVPage></IPTVPage>
+				<Container>
+					<Formpage></Formpage>
+				</Container>
 		</LayoutWrapper>
 		</>
 	)
