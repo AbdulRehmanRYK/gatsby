@@ -28,7 +28,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                 Learn More
                                 </button>
-                                <StaticImage className={styles.projectpicss}  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage className={styles.projectpicss}  src="../../../assets/images/Choose.png"></StaticImage>
                             </div> 
                     </div>
                     <div className={styles.carddiv1}>
@@ -38,7 +38,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/ChooseOne.png"></StaticImage>
                             </div> 
                     </div> 
                 </div> 
@@ -50,7 +50,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/ChooseTwo.png"></StaticImage>
                             </div> 
                     </div>   
                     <div className={styles.carddiv3}>
@@ -60,7 +60,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/ChooseThree.png"></StaticImage>
                             </div> 
                     </div> 
                 </div> 
@@ -72,7 +72,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/Choose.png"></StaticImage>
                             </div> 
                     </div>   
                     <div className={styles.carddiv5}>
@@ -82,19 +82,19 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/Choose.png"></StaticImage>
                             </div> 
                     </div>  
                 </div> 
                 <div className={styles.cardOuterRow} >  
-                    <div className={styles.carddiv6}>
+                    {/* <div className={styles.carddiv6}>
                         <p className={styles.category} >Category</p>  
                         <h3 className={styles.projectname}>Project Name</h3> 
                             <div className={styles.divvv} >
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/Choose.png"></StaticImage>
                             </div> 
                     </div>   
                     <div className={styles.carddiv7}>
@@ -104,10 +104,10 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/Choose.png"></StaticImage>
                             </div> 
-                    </div>   
-            </div>
+                    </div>    */}
+                </div>
        
         </>
     )
