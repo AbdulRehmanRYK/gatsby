@@ -2,7 +2,7 @@ import React from 'react';
 import * as styles from './styles.module.scss'
 import { StaticImage } from "gatsby-plugin-image";
 import { Card, Button,Container,Row, Col} from "react-bootstrap";
-
+import { navigate } from "gatsby";
 const Servicepage=()=>{
     const width=50;
     return(
@@ -23,47 +23,47 @@ const Servicepage=()=>{
                 <Card className={styles.card}>
                     <StaticImage  className={styles.cardPic} src="../../../assets/images/Web-Development.png" alt="" />
                     <Card.Body>
-                        <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
+                        <Card.Text className={styles.cardText} >
                          Web Development
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col lg={2} md={3} sm={4} xs={6}  className={styles.cardpadding}>
-                <Card className={styles.card} >
+                <Card className={`${styles.card} ${styles.card1}`} >
                 <StaticImage className={styles.cardPic} src="../../../assets/images/mob.png" alt="" />
                     <Card.Body>
-                        <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
+                        <Card.Text className={styles.cardText}>
                             Mobile App Development 
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col lg={2} md={3} sm={4} xs={6} className={styles.cardpadding}>
-                <Card className={styles.card} >
+                <Card className={`${styles.card} ${styles.card2}`} >
                 <StaticImage className={styles.cardPic} src="../../../assets/images/e-commerce.png" alt="" />
                     <Card.Body>
-                        <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
+                        <Card.Text className={styles.cardText}>
                             ECommerce Development
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col lg={2} md={3} sm={4} xs={6} className={styles.cardpadding}>
-                <Card className={styles.card} >
+                <Card className={`${styles.card} ${styles.card3}`}>
                 <StaticImage className={styles.cardPic} src="../../../assets/images/Game-Development.png" alt="" />
                 <Card.Body>
-                    <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
+                    <Card.Text className={styles.cardText}>
                         Game Development
                     </Card.Text>
                 </Card.Body>
                 </Card>
             </Col>
             <Col lg={2} md={3} sm={4} xs={6} className={styles.cardpadding}>
-            <Card className={styles.card} >
+            <Card className={`${styles.card} ${styles.card4}`} >
             <StaticImage className={styles.cardPic} src="../../../assets/images/webic_ui-ux.png" alt="" />
             <Card.Body>
-                <Card.Text style={{fontSize:"2rem", fontWeight:"400"}}>
+                <Card.Text className={styles.cardText}>
                     User Experiance
                 </Card.Text>
             </Card.Body>
@@ -73,8 +73,8 @@ const Servicepage=()=>{
          {/* <div>
          <Button className={styles.request}>Request a Quote</Button>
          </div> */}
-         <div className={styles.btnSDiv} >
-            <button className={styles.ViewSbutton1} variant="primary" type="submit">
+         <div className={styles.btnSDiv}  >
+            <button className={styles.ViewSbutton1} variant="primary" type="submit" onClick={()=>{navigate('/contactus')}}>
                  CONTACT US
             </button>
          </div>

@@ -1,3 +1,4 @@
+import { navigate } from "gatsby";
 import React from "react";
 import { Row,Col,Container } from "react-bootstrap";
 import * as styles from './styles.module.scss';
@@ -14,7 +15,7 @@ const WorkWithUs = () =>{
                 
                     </Row>
                     <div className={styles.btnDiv} >
-                        <button className={styles.Viewbutton1} variant="primary" type="submit">
+                        <button className={styles.Viewbutton1} variant="primary" type="submit"  onClick={()=>{navigate('/contactus')}}>
                             CONTACT US
                         </button>
                     </div>

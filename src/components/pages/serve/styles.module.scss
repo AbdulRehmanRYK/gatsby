@@ -5,8 +5,6 @@
 .mainSblock{
     margin: 0px;
     justify-content:center;
-   
-  
 }
 .ViewSbutton1{
     pointer-events: all;
@@ -33,7 +31,6 @@
 .ViewSbutton1:hover {
     background-color: $primary;
     color: white;
-   
   }
 // .ViewSbutton1{
 //     font-style: normal;
@@ -76,7 +73,12 @@
     text-align: center;
     padding-top: 25px;
 }
-
+.cardText{
+    font-size:1.8rem;
+    font-weight: 500;
+    // color: $mainly-blue;
+    
+}
 
 .services{
  margin-top: 30px;   
@@ -128,10 +130,31 @@ color: $mainly-blue;
         margin-top:40px;
         transition: 0.6s;
         padding: 20px;
+
 }
 .card:hover {
     background-color: $primary;
-    color: white;
+    color: $txt-white !important;
+    margin-top:30px;
+  }
+.card1:hover {
+    background-color:$purple;
+    color: $txt-white !important;
+    margin-top:30px;
+  }
+.card2:hover {
+    background-color: $cyan;
+    color: $txt-white !important;
+    margin-top:30px;
+  }
+.card3:hover {
+    background-color: $pink;
+    color: $txt-white !important;
+    margin-top:30px;
+  }
+.card4:hover {
+    background-color: $blue;
+    color: $txt-white !important;
     margin-top:30px;
   }
 .cardPic{
