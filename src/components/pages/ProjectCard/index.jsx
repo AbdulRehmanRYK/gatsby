@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from "react";
 import {Container,Row,Col,Modal} from "react-bootstrap";
 import {message} from "antd";
-import styles from './styles.scss';
 import { StaticImage } from "gatsby-plugin-image"
 import 'antd/dist/antd.css';
 import firebase from '../../../config/firebase';

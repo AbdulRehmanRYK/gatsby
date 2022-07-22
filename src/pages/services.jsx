@@ -1,6 +1,5 @@
 import React from "react"
 import LayoutWrapper from "components/layout/LayoutWrapper"
-// import { Form } from "react-bootstrap"
 import Webpage from "components/pages/web";
 import Mobilepage from "components/pages/Mobile";
 import Ecommercepage from "components/pages/Ecommerce";
