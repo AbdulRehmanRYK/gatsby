@@ -1,4 +1,3 @@
-import Bootstrap from "assets/svgs/bootstrap";
 import React from "react";
 import * as styles from "./styles.module.scss";
 import { Row,Col } from "react-bootstrap";

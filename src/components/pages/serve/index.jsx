@@ -18,58 +18,52 @@ const Servicepage=()=>{
                 </Row>
             </Container>
         </div>
-        <Row className={styles.mainSblock} xs={1} sm={3} md={4} lg={5}>
-        {/* <Col lg={3} md={4} sm={6} xs={9}>
-                        <div className={styles.Sblock}>
-                        <StaticImage className={styles.cardPic} src="../../../assets/images/Web-Development.png" alt="" />
-                            <p className={styles.Sheading}>Flutter</p>
-                        </div>      
-                    </Col> */}
-            <Col lg={2} md={3} sm={4} xs={9} className={styles.cardpadding}>
+        <Row className={styles.mainSblock} xs={2} sm={3} md={4} lg={5}>
+            <Col lg={2} md={3} sm={4} xs={6} className={styles.cardpadding}>
                 <Card className={styles.card}>
                     <StaticImage  className={styles.cardPic} src="../../../assets/images/Web-Development.png" alt="" />
                     <Card.Body>
-                        <Card.Text>
+                        <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
                          Web Development
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
-            <Col lg={2} md={3} sm={4} xs={9}  className={styles.cardpadding}>
+            <Col lg={2} md={3} sm={4} xs={6}  className={styles.cardpadding}>
                 <Card className={styles.card} >
                 <StaticImage className={styles.cardPic} src="../../../assets/images/mob.png" alt="" />
                     <Card.Body>
-                        <Card.Text>
+                        <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
                             Mobile App Development 
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
-            <Col lg={2} md={3} sm={4} xs={9} className={styles.cardpadding}>
+            <Col lg={2} md={3} sm={4} xs={6} className={styles.cardpadding}>
                 <Card className={styles.card} >
                 <StaticImage className={styles.cardPic} src="../../../assets/images/e-commerce.png" alt="" />
                     <Card.Body>
-                        <Card.Text>
-                            E-Commerce Development
+                        <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
+                            ECommerce Development
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
-            <Col lg={2} md={3} sm={4} xs={9} className={styles.cardpadding}>
+            <Col lg={2} md={3} sm={4} xs={6} className={styles.cardpadding}>
                 <Card className={styles.card} >
                 <StaticImage className={styles.cardPic} src="../../../assets/images/Game-Development.png" alt="" />
                 <Card.Body>
-                    <Card.Text>
+                    <Card.Text style={{fontSize:"1.8rem", fontWeight:"500"}}>
                         Game Development
                     </Card.Text>
                 </Card.Body>
                 </Card>
             </Col>
-            <Col lg={2} md={3} sm={4} xs={9} className={styles.cardpadding}>
+            <Col lg={2} md={3} sm={4} xs={6} className={styles.cardpadding}>
             <Card className={styles.card} >
             <StaticImage className={styles.cardPic} src="../../../assets/images/webic_ui-ux.png" alt="" />
             <Card.Body>
-                <Card.Text>
+                <Card.Text style={{fontSize:"2rem", fontWeight:"400"}}>
                     User Experiance
                 </Card.Text>
             </Card.Body>

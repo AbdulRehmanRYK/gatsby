@@ -1,4 +1,3 @@
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Row,Col,Container } from "react-bootstrap";
 import * as styles from './styles.module.scss';

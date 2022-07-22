@@ -1,6 +1,6 @@
 import React from "react"
 import LayoutWrapper from "components/layout/LayoutWrapper"
-import { Button, Container, Col, Row } from "react-bootstrap"
+import {Container } from "react-bootstrap"
 import Welcome from "components/pages/welcome"
 import Servicepage from "components/pages/serve"
 import ChooseUspage from "components/pages/ChooseUs"
