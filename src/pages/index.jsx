@@ -14,7 +14,7 @@ const Home = () => {
 				<Container>
 					<div className=" row" style={{ width: "100%" }}>
 						<div className=" mx-auto">
-							<StaticImage src="../assets/images/blue_banner.png" alt="" style={{marginTop:'150px',marginBottom:'150px',width:'auto'}} />
+							<StaticImage src="../assets/images/about-hero.webp" alt="" style={{marginTop:'150px',marginBottom:'150px',width:'auto'}} />
 						</div>
 					</div>
 				</Container>
