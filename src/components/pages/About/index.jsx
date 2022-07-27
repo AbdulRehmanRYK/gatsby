@@ -19,7 +19,7 @@ const Aboutpage=() =>{
                 </Row>
             </Container>
          </div>
-           <StaticImage src="../../../assets/images/do-something.png"></StaticImage> 
+           <StaticImage src="../../../assets/images/do-something.png" placeholder="none"></StaticImage> 
         </>
     )
 }

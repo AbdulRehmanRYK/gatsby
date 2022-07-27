@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles.scss"
 import { useState } from "react";
 import {  Button } from "react-bootstrap";
@@ -19,6 +19,9 @@ const HeaderTwo=() =>{
               ? setToggleIcon('nav_toggler toggle')
               : setToggleIcon("nav_toggler")
         }
+
+        const [useclick, Setuseclick]=useState(0);
+        
     return(
          <>
          {/* <div className="aaa"></div> */}
@@ -63,15 +66,15 @@ const HeaderTwo=() =>{
            
         {/* <StaticImage onClick={()=>{navigate('/')}} href="/" src="../../../assets/svgs/mercurysolsLogo.svg" alt="" className="media"  width={width}/> */}
              <ul className={active} >          
-                <li className="nav_item"><a href="/company" className="nav_link">COMPANY</a></li>
-                <li className="nav_item"><a href="/services" className="nav_link">SERVICES</a></li>
-                <li className="nav_item"><a href="/projects"className="nav_link">PROJECTS</a></li>
-                <li className="nav_item"><a href="/iptv" className="nav_link">IPTV</a></li>
-                <li className="nav_item"><a href="/career" className="nav_link">CAREER</a></li>
-                <li className="nav_item"><a href="/jobapply" className="nav_link">JOB APPLY</a></li>
+                <li className="nav_item"><a href="/company" className={(useclick===1)?"nav_linkActive":"nav_link"} onClick={()=>{Setuseclick(1)}}>COMPANY</a></li>
+                <li className="nav_item"><a href="/services" className="nav_link" onClick={()=>{Setuseclick(2)}}>SERVICES</a></li>
+                <li className="nav_item"><a href="/projects"className="nav_link" onClick={()=>{Setuseclick(3)}}>PROJECTS</a></li>
+                <li className="nav_item"><a href="/iptv" className="nav_link" onClick={()=>{Setuseclick(4)}}>IPTV</a></li>
+                <li className="nav_item"><a href="/career" className="nav_link" onClick={()=>{Setuseclick(5)}}>CAREER</a></li>
+                <li className="nav_item"><a href="/jobapply" className="nav_link" onClick={()=>{Setuseclick(6)}}>JOB APPLY</a></li>
              </ul>
               <Button className="headerbtn" onClick={()=>{navigate('/login/')}}>
-                  <span className="me-2">
+                  <span className="me-1">
                       <svg width="14" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.50024 20.5714H4.50014C3.67184 20.5714 3.0001 19.8038 3.0001 18.8571V5.14286C3.0001 4.19625 3.67184 3.42857 4.50014 3.42857H7.50024C8.32855 3.42857 9.00029 2.66089 9.00029 1.71429C9.00029 0.767679 8.32995 0 7.50024 0H4.50014C2.01475 0 0 2.3025 0 5.14286V18.8571C0 21.6975 2.01475 24 4.50014 24H7.50024C8.32855 24 9.00029 23.2323 9.00029 22.2857C9.00029 21.3391 8.32995 20.5714 7.50024 20.5714ZM23.5601 10.7893L17.5599 3.93214C16.9735 3.26196 16.0243 3.26304 15.4388 3.93214C14.8528 4.60179 14.8528 5.68661 15.4388 6.35625L18.8818 10.2857H9.00029C8.17057 10.2857 7.50024 11.0518 7.50024 12C7.50024 12.9482 8.17104 13.7143 9.00029 13.7143H18.8818L15.4421 17.6454C14.8561 18.315 14.8561 19.3998 15.4421 20.0695C16.028 20.7391 16.9773 20.7391 17.5632 20.0695L23.5634 13.2123C24.1461 12.5411 24.1461 11.4589 23.5601 10.7893Z" fill="white"/>
                       </svg>

@@ -3,8 +3,7 @@
 .mainmobile{
     margin: 0px;
     justify-content:center;
-    // margin:10px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .mainmobile1{
     margin: 0px;
@@ -13,8 +12,10 @@
     // padding-bottom: 100px;
 }
 .mainmobilerow{
-    background-color: $pink;
-    
+    background-color: $pink; 
+}
+.mobsvg1{
+    margin-top: 30px;
 }
 .mob_heading{
     color: $offwhite;
@@ -24,15 +25,14 @@
     line-height: 63px;
     text-align: center;
     padding-top: 50px;
-    // padding-left: 100px;
-    // padding-bottom: 10px;
+    margin-bottom: 0px !important;
 }
 .mobparagraph{
     //  font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 2.2rem;
-    line-height: 1.5;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.4;
     letter-spacing: 0;
     text-align: start;
      color: $txt-white;
@@ -61,16 +61,22 @@
 }
 .mobblock{
     // width: 18%;
-    height: 220px;
-    margin: 10px;
+     height: 147px;
+    width: 160px;
+    // margin: 10px !important;
     display: flex;
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin: 15px;
     // padding: 10px;
     background-color: $offwhite;
+}
+@media screen and (max-width:572px){
+    .mobblock{
+        margin: 30px !important;
+    }
 }
 .mobstatic{
     height: 100px;
@@ -80,7 +86,7 @@
 }
 .mobheading{
     text-align: center;
-    padding-top: 25px;
+    margin-top: 5px;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }

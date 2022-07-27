@@ -28,19 +28,31 @@ color: $mainly-blue;
     font-size: 1.8rem;
     font-weight: 400;
 }
-.cform_control{
+.contactform_control{
      border: hidden !important;
     /* border-bottom: 1px solid black; */
     border-radius: 0px !important;
     border-bottom: 1px solid $border-clr !important;
     width: 80%;
 }
-.cform_control1{
+.contactform_control1{
     border: hidden !important;
     /* border-bottom: 1px solid black; */
     border-radius: 0px !important;
     border-bottom: 1px solid $border-clr !important;
     width: 100%;
+}
+.contactform_control:focus{
+    border-color: rgb(250, 250, 250) !important;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0.25rem !important;
+     border-radius: 0px;
+    border-bottom: 1px solid $border-clr !important;
+}
+.contactform_control1:focus{
+    border-color: rgb(250, 250, 250) !important;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0.25rem !important;
+     border-radius: 0px;
+    border-bottom: 1px solid $border-clr !important;
 }
 .cfbutton{
     pointer-events: all;

@@ -12,7 +12,7 @@
     } 
     .notesTxt{
         font-weight: 700;
-        font-size: 48px;
+        font-size: 5.1rem ;
         color: #E5E5E5;
     }
     .notesBehind{
@@ -36,17 +36,18 @@
         font-size: 28px;
         text-align: center;
         color: #E29E4E;
-        padding:30px 0 45px  0;
+        padding:20px 0 25px  0;
     }
     .keyCardTxt{
-        font-weight: 400;
-        font-size: 20px;
+            font-weight: 300 !important;
+            font-size: 2rem !important;
+            line-height: 1.4;
         color: #000000;
-        padding:0 30px 15px 30px;
+        padding:0 15px 15px 15px;
     }
     .noteMain{
         background: #DDEBFF;
-        padding:90px 60px;
+        padding:50px 60px;
     }
     .noteSub{
         display:flex;
@@ -56,16 +57,17 @@
     }
     .noteHeading{
         margin-bottom:40px;
-        font-weight: 500;
-        font-size: 40px;
+        font-weight: 600;
+        font-size: 3.5rem;
         text-align: center;
-        color: #02285B;
+        color: $primary;
     }
     .noteHeadingTxt{
-        font-weight: 300;
-        font-size: 29px;
+        font-weight: 400;
+        font-size: 2.2rem;
+            line-height: 1.5;
         text-align: center;
-        color: #323232;
+        color: $mainly-blue;
         text-align:center;
     }
 }
