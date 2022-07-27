@@ -28,7 +28,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                 Learn More
                                 </button>
-                                <StaticImage className={styles.projectpicss}  src="../../../assets/images/Choose.png"></StaticImage>
+                                <StaticImage className={styles.projectpicss} placeholder="none"  src="../../../assets/images/Choose.png"></StaticImage>
                             </div> 
                     </div>
                     <div className={styles.carddiv1}>
@@ -38,7 +38,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/ChooseOne.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/ChooseOne.png" placeholder="none"></StaticImage>
                             </div> 
                     </div> 
                 </div> 
@@ -50,7 +50,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/ChooseTwo.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/ChooseTwo.png" placeholder="none"></StaticImage>
                             </div> 
                     </div>   
                     <div className={styles.carddiv3}>
@@ -60,7 +60,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/ChooseThree.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/ChooseThree.png" placeholder="none"></StaticImage>
                             </div> 
                     </div> 
                 </div> 
@@ -72,7 +72,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/Choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/Choose.png" placeholder="none"></StaticImage>
                             </div> 
                     </div>   
                     <div className={styles.carddiv5}>
@@ -82,7 +82,7 @@ const Projectslide=()=>{
                                 <button className={styles.pbutton} variant="primary" type="submit">
                                      Learn More
                                 </button>
-                                <StaticImage  src="../../../assets/images/Choose.png"></StaticImage>
+                                <StaticImage  src="../../../assets/images/Choose.png" placeholder="none"></StaticImage>
                             </div> 
                     </div>  
                 </div> 

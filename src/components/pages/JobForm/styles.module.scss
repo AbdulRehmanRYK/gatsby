@@ -37,6 +37,18 @@
     border-bottom: 1px solid $border-clr;
     width: 96%;
 }
+.Jobform_control:focus{
+    border-color: rgb(250, 250, 250);
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0.25rem;
+     border-radius: 0px;
+    border-bottom: 1px solid $border-clr;
+}
+.Jobform_control1:focus{
+    border-color: rgb(250, 250, 250);
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0.25rem;
+     border-radius: 0px;
+    border-bottom: 1px solid $border-clr;
+}
 .Jobbutton{
     font-style: normal;
     font-weight: 400;

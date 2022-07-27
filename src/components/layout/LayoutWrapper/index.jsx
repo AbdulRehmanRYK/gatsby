@@ -6,6 +6,7 @@ import "scss/main.scss"
 import HeaderTwo from "components/shared/HeaderTwo"
 
 const LayoutWrapper = ({ children }) => {
+	
 	return (
 		<>
 			<HeaderTwo />

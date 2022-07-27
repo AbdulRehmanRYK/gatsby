@@ -9,17 +9,18 @@
 .looking{
     // font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 42px;
-    text-align: center;
+font-size: 3.5rem;
+font-weight: 700;
+line-height: 63px;
+text-align: center;
+margin-top: 10px;
     color: $primary;
 }
 .paragraph{
     //  font-family: 'Roboto';
      font-style: normal;
-     font-weight: 300;
-     font-size: 22px;
+     font-size: 2.2rem;
+     font-weight: 400;
      line-height: 28px;
      text-align: center;
      color: $pink;
@@ -27,12 +28,12 @@
 .current{
     // font-family: 'Roboto';
     font-style: normal;
+    font-size: 3rem;
     font-weight: 500;
-    font-size: 26px;
     line-height: 35px;
     color: $primary;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .buttonsdiv{
     display: flex;

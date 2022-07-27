@@ -17,7 +17,7 @@ const HeaderSecondary = (props) => {
                 <div className={styles.hSInner}>
                     <div>
                         <div>
-							<StaticImage  href="/" className={styles.msLogoWidth} src="../../../assets/logos/block2logo.png" alt="Mercury Sols Logo" />
+							<StaticImage  placeholder="none" href="/" className={styles.msLogoWidth} src="../../../assets/logos/block2logo.png" alt="Mercury Sols Logo" />
                         </div>
                     </div>
 				    <div className="d-flex">

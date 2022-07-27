@@ -31,6 +31,7 @@
 .picc{
 	 color: $txt-white;
 	 margin: 4px;
+	 padding: 1px;
 }
 .lists
 {
@@ -38,18 +39,21 @@
 	// font-Family: Roboto ;
 	font-style: normal; 
 	font-weight: 300 ;
-	font-size: 18px; 
+	font-size: 1.6rem; 
 	line-height: 28px; 
 	text-align: start; 
 	color: $txt-white; 
 }
+.whitelogo{
+	margin-top: 20px;
+}
 .listss
 {
-	padding-left: 10px ;
+	// padding-left: 10px ;
 	// font-Family: Roboto ;
 	font-style: normal; 
-	font-weight: 300 ;
-	font-size: 22px; 
+	font-weight: 400 ;
+	font-size: 2rem;
 	line-height: 28px; 
 	text-align: start; 
 	color: $txt-white; 
@@ -57,8 +61,8 @@
 .mercury{
 	// font-family: Roboto;
 	font-style: normal;
-	font-weight: 300;
-	font-size: 17px;
+	font-weight: 300 ;
+	font-size: 1.6rem; 
 	line-height: 28px;
 	text-align: start;
 	color: $txt-white;
@@ -109,6 +113,18 @@
 		margin-right:30px;
 	}
 }
+@media screen and (min-width:938px){
+	.setLargeScreen{
+		margin-left: 100px;
+		margin-right:100px;
+	}
+}
+@media screen and (min-width:1200px){
+	.setLargeScreen{
+		margin-left: 130px;
+		margin-right:130px;
+	}
+}
 
 // @media screen and (min-width:768px){
 // 	.onlymedium{
@@ -133,8 +149,8 @@
 .addressdiv{
 	// font-family:Roboto;
 	font-style: normal;
-	font-weight: 300;
-	font-size: 18px;
+	font-weight: 300 ;
+	font-size: 1.6rem; 
 	line-height: 28px;
 	color: $txt-white;
 	margin-top: 50px;
@@ -142,8 +158,8 @@
 .requestfooter{
 	// font-family:Roboto;
 	font-style:normal;
-	font-weight:300;
-	font-size:18px;
+	font-weight: 300 ;
+	font-size: 1.6rem; 
 	line-height:28px;
 	color:$txt-white;
 }

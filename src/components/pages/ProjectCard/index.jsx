@@ -139,10 +139,10 @@ const ProjectCard=(props)=>{
                             </div>
                             <div className="pcImgMain">
                                 <div className="pcImg">
-                                    <StaticImage  href="/" className="" src="../../../assets/images/Choosee_main_5.png" alt="Mercury Sols Logo" />
+                                    <StaticImage placeholder="none" href="/" className="" src="../../../assets/images/Choosee_main_5.png" alt="Mercury Sols Logo" />
                                 </div>
                                 <div  className="pcImg">
-                                    <StaticImage  href="/" className="" src="../../../assets/images/Choosee_main_5.png" alt="Mercury Sols Logo" />
+                                    <StaticImage placeholder="none"  href="/" className="" src="../../../assets/images/Choosee_main_5.png" alt="Mercury Sols Logo" />
                                 </div>
                             </div>
                             <div className="pcBar">

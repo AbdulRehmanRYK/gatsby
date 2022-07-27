@@ -4,7 +4,7 @@
     margin: 0px;
     justify-content:center;
     // margin:10px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .mainEcommerce1{
     margin: 0px;
@@ -16,22 +16,26 @@
     background-color: $blue;
     
 }
+.ecommsvg1{
+    margin-top: 15px;
+}
 .Ecom_heading{
     font-style: normal;
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 63px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
     // padding-left: 100px;
     color: $primary;
+    margin-bottom: 0px !important;
 }
 .Ecomparagraph{
     //  font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 2.2rem;
-    line-height: 1.5;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.4;
     letter-spacing: 0;
      color: $txt-white;
      padding: 20px;
@@ -59,26 +63,31 @@
 }
 .Ecomblock{
     // width: 18%;
-    height: 220px;
-    margin: 10px;
+    height: 147px;
+    width: 160px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin: 15px;
     // padding: 10px;
     background-color: $offwhite;
 }
-.Ecomstatic{
-    height: 100px;
-    margin-top: 10px;
-    // padding: 20px;
-    text-align: center;
+@media screen and (max-width:572px){
+    .Ecomblock{
+        margin: 30px !important;
+    }
 }
+// .Ecomstatic{
+//     height: 100px;
+//     margin-top: 10px;
+//     // padding: 20px;
+//     text-align: center;
+// }
 .Ecomheading{
     text-align: center;
-    padding-top: 25px;
-    font-size: 2rem;
+    // padding-top: 25px;
+    font-size: 1.6rem;
     font-weight: 400;
 }

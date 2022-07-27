@@ -22,19 +22,19 @@ const Lookingpage=()=>{
                 </Col>
                  <Col sm={6} md={4} lg={3} className={styles.buttonsdiv}>
                   
-                    <button className={styles.buttons}>Flutter Developer</button>          
+                    <button className={styles.buttons}>Android Developer</button>          
                 </Col>
                  <Col sm={5} md={4} lg={3} className={styles.buttonsdiv}>
                   
-                    <button className={styles.buttons}>Flutter Developer</button>          
+                    <button className={styles.buttons}>IOS  Developer</button>          
                 </Col>
                  <Col sm={5} md={4} lg={3} className={styles.buttonsdiv}>
                   
-                    <button className={styles.buttons}>Flutter Developer</button>          
+                    <button className={styles.buttons}>Nodejs Developer</button>          
                 </Col>
                  <Col sm={5} md={4} lg={3} className={styles.buttonsdiv}>
                   
-                    <button className={styles.buttons}>Flutter Developer</button>          
+                    <button className={styles.buttons}>React Developer</button>          
                 </Col>
                  <Col sm={5} md={4} lg={3} className={styles.buttonsdiv}>
                   

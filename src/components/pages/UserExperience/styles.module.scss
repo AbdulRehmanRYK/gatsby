@@ -8,7 +8,7 @@
     margin: 0px;
     justify-content:center;
     // margin:10px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .mainUserExp1{
     margin: 0px;
@@ -28,15 +28,16 @@
     line-height: 63px;
     text-align: center;
     // padding-top: 30px;
-    padding-top: 50px;
+    padding-top: 40px;
     color: $txt-white;
+    margin-bottom: 0px !important;
 }
 .UserExpParagraph{
     //  font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 2.2rem;
-    line-height: 1.5;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.4;
     letter-spacing: 0;
      color: $txt-white;
      padding: 20px;
@@ -45,9 +46,10 @@
 .UserExppic{
     text-align: center;
    padding-bottom: 20px;
-   padding: 30px;
-
-    
+   padding: 30px; 
+}
+.usersvg1{
+    margin-top: 10px;
 }
 // .picststic{
 //     // margin-top: -15px;
@@ -64,16 +66,21 @@
 }
 .UserExpblock{
     // width: 18%;
-    height: 220px;
-    margin: 10px;
+    height: 147px;
+    width: 160px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin: 15px;
     // padding: 10px;
     background-color: $offwhite;
+}
+@media screen and (max-width:572px){
+    .UserExpblock{
+        margin: 30px !important;
+    }
 }
 .UserExpstatic{
     height: 100px;
@@ -83,7 +90,7 @@
 }
 .UserExpHeading{
     text-align: center;
-    padding-top: 25px;
+    // padding-top: 25px;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }

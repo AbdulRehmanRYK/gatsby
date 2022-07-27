@@ -12,9 +12,9 @@ const Home = () => {
 		<>
 			<LayoutWrapper>
 				<Container>
-					<div className=" row" style={{ width: "100%" }}>
+					<div className="row" style={{ width: "75%",margin:"auto" }}>
 						<div className=" mx-auto">
-							<StaticImage src="../assets/images/about-hero.webp" alt="" style={{marginTop:'150px',marginBottom:'150px',width:'auto'}} />
+							<StaticImage placeholder="none" src="../assets/images/about-hero.webp" alt="" style={{marginTop:'70px',marginBottom:'20px',width:'auto'}} />
 						</div>
 					</div>
 				</Container>

@@ -2,7 +2,6 @@ import VenrupLogo from "assets/logos/VenrupLogo"
 import React, { useState,useEffect } from "react"
 import { Container, Nav, Navbar, Col, Row, Button } from "react-bootstrap"
 import * as styles from "./styles.module.scss"
-import { StaticImage } from "gatsby-plugin-image"
 import {navigate} from 'gatsby';
 
 const SideBar = (props) => {

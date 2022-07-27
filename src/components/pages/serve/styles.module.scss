@@ -51,7 +51,6 @@
 .cardpadding{
     padding: 10px;
 }
-
 .Sblock{
        height: 280px;
        margin: 10px;
@@ -72,14 +71,12 @@
 .Sheading{
     text-align: center;
     padding-top: 25px;
+     margin-top: 8px;
 }
 .cardText{
-    font-size:1.8rem;
-    font-weight: 500;
-    // color: $mainly-blue;
-    
+    font-size:1.6rem;
+    font-weight: 500; 
 }
-
 .services{
  margin-top: 30px;   
 // font-family: 'Roboto';
@@ -142,6 +139,9 @@ color: $mainly-blue;
     color: $txt-white !important;
     margin-top:30px;
   }
+  .cardd2{
+        margin-bottom: 7px;
+  }
 .card2:hover {
     background-color: $cyan;
     color: $txt-white !important;
@@ -157,9 +157,16 @@ color: $mainly-blue;
     color: $txt-white !important;
     margin-top:30px;
   }
-.cardPic{
-    padding: 20px;
+// .cardPic{
+//     padding: 20px;
+// }
+.svg1{
+  padding: 15px;
 }
+.card:hover svg path{
+    fill: rgb(254, 255, 255) !important;
+}
+
 // .request{
 //     position: relative;
 //     background: $gray;
