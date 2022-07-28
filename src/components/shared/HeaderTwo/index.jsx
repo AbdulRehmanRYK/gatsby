@@ -24,24 +24,10 @@ const HeaderTwo=() =>{
         
     return(
          <>
-         {/* <div className="aaa"></div> */}
         <nav className="navv">
           <a className="nav_logoo" href="/">
             <svg xmlns="http://www.w3.org/2000/svg"  width= "150px" viewBox="0 0 9556.24503 2968.26275">
                 <defs>
-                  {/* <style>
-                    .cls-1 {
-                      fill= "#1c2d59"
-                    }
-
-                    .cls-2 {
-                      fill= "#1c2d5a"
-                    }
-
-                    .cls-3 {
-                      fill= "#1d2d5a"
-                    }
-                  </style> */}
                 </defs>
                 <g id="Layer_2" data-name="Layer 2">
                 <g id="Layer_1-2" data-name="Layer 1">

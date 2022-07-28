@@ -6,8 +6,8 @@ const Projectpage = () => {
 	return (
 		<>
 		<LayoutWrapper>
-			<Projectslide></Projectslide>
-			<Formpage></Formpage>
+			<Projectslide />
+			<Formpage />
 		</LayoutWrapper>
 			
 		</>

@@ -18,10 +18,10 @@ const Home = () => {
 						</div>
 					</div>
 				</Container>
-				<Welcome></Welcome>
-				<Servicepage></Servicepage>
-				<ChooseUspage></ChooseUspage>
-				<Customepage></Customepage>
+				<Welcome />
+				<Servicepage />
+				<ChooseUspage />
+				<Customepage />
 			</LayoutWrapper>
 		</>
 	)

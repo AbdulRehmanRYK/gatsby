@@ -181,9 +181,6 @@ const Servicepage=()=>{
             </Card>
             </Col>
          </Row>
-         {/* <div>
-         <Button className={styles.request}>Request a Quote</Button>
-         </div> */}
          <div className={styles.btnSDiv}  >
             <button className={styles.ViewSbutton1} variant="primary" type="submit" onClick={()=>{navigate('/contactus')}}>
                  CONTACT US

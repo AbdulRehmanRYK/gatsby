@@ -40,26 +40,18 @@ padding-bottom: 30px;
 }
 
 .C_images11{
-    // padding: 40px 40px;
     background-color: $purple;
-    // height: 240px;
 }
 .C_images12{
-    // padding: 40px 40px;
     background-color: $blue;
-    // height: 240px;
     height: 100%;
 }
 .C_images21{
-    // padding: 40px 40px;
     background-color: $cyan;
-    // height: 240px;
     height: 100%;
 }
 .C_images22{
-    // padding: 40px 40px;
     background-color: $pink;
-    // height: 240px;
     height: 100%;
 }
 .C_images3{
@@ -69,15 +61,11 @@ padding-bottom: 30px;
    
 }
 .C_images41{
-    // padding: 40px 40px;
     background-color: $primary;
-    // height: 240px;
     height: 100%;
 }
 .C_images42{
-    // padding: 40px 40px;
     background-color: $cyan;
-    // height: 240px;
     height: 100%;
 }
 
@@ -87,26 +75,18 @@ padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
-    // width: 100%;
 }
 .one{
-    // background-color: $purple;
     height: 240px;
     width:33.33%;
     padding-bottom: 50px;
 }
 .two{
-    // background-color: $pink;
     height: 240px;
     width:33.33%;
     padding-bottom: 50px;
 }
-// .three{
-//     height:340px;
-//     width:25%
-// }
 .four{
-    // background-color: $blue;
     height: 240px;
     width:33.33%;
     padding-bottom: 50px;
@@ -117,23 +97,18 @@ padding-bottom: 30px;
         flex-direction: column;
     }
     .one{
-        // background-color: $purple;
         height: 240px;
         width:50%
     }
     .two{
-        // background-color: $pink;
         height: 240px;
         width:50%
     }
     .three{
-        // background-color: $cyan;
         height:340px;
-        // position: inherit;
         width:50%
     }
     .four{
-        // background-color: $blue;
         height: 240px;
         width:50%
     }
@@ -147,24 +122,10 @@ padding-bottom: 30px;
     text-align: center;
     color: $txt-white;
      width: 32%;
-    // margin-left: 37.5%;
     background: $gray;
     border: none;
     border-radius: 10px $gray;
 }
-// .Viewbutton1{
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 20px;
-//     line-height: 35px;
-//     text-align: center;
-//     color: $txt-white;
-//      width: 32%;
-//     // margin-left: 37.5%;
-//     background: $pink;
-//     border: none;
-//     border-radius: 10px $gray;
-// }
 .btnDiv{ 
     text-align:center;
     padding-bottom: 50px;
@@ -190,6 +151,5 @@ padding-bottom: 30px;
     line-height: 38px;
     text-align: center;
     color: $txt-sandstone;
-
 }
 

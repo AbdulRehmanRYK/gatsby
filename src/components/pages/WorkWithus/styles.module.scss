@@ -6,20 +6,6 @@
 .projectrow{
     margin: 0px;
 }
-// .Viewbutton1{
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 20px;
-//     line-height: 35px;
-//     text-align: center;
-//     color: $txt-white;
-//      width: 32%;
-//     // margin-left: 37.5%;
-//     background: $pink;
-//     border: none;
-    
-//     border-radius: 10px $gray;
-// }
 .Viewbutton1{
     width: 200px;
     height: 45px;
@@ -32,7 +18,6 @@
     background-color: white;
     text-align: center;
     padding-top: 4px;
-    // font-family: "Nunito Sans", sans-serif !important;
     font-weight: 800;
     font-size: 1.4rem;
     letter-spacing: 0.1em;
@@ -44,10 +29,8 @@
 .Viewbutton1:hover {
     background-color: $primary;
     color: white;
-   
   }
 .btnDiv{
-    
     text-align:center;
     padding-bottom: 50px;
     padding-top: 40px;
@@ -64,7 +47,6 @@
 }
 
 .Workgraph{
-    
     // font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -73,6 +55,5 @@
     letter-spacing: 0;
     text-align: center;
     color: $mainly-blue;
-
 }
 

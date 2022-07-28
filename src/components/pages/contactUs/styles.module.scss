@@ -1,10 +1,5 @@
 @import "../../../scss/variables.scss";
 
-// .overallborder{
-//     border-radius: 0px;
-//     border: 1px solid $border-clr;
-// }
-
 .contctus{
     // font-family: 'Roboto';
     font-style: normal;
@@ -30,14 +25,12 @@ color: $mainly-blue;
 }
 .contactform_control{
      border: hidden !important;
-    /* border-bottom: 1px solid black; */
     border-radius: 0px !important;
     border-bottom: 1px solid $border-clr !important;
     width: 80%;
 }
 .contactform_control1{
     border: hidden !important;
-    /* border-bottom: 1px solid black; */
     border-radius: 0px !important;
     border-bottom: 1px solid $border-clr !important;
     width: 100%;

@@ -1,7 +1,4 @@
 @import "../../../scss/variables.scss";
-// .serve{
-//     // position: relative;
-// }
 .mainSblock{
     margin: 0px;
     justify-content:center;
@@ -32,18 +29,6 @@
     background-color: $primary;
     color: white;
   }
-// .ViewSbutton1{
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 20px;
-//     line-height: 35px;
-//     text-align: center;
-//     color: $txt-white;
-//      width: 27%;
-//     background: $gray;
-//     border: none;
-//     border-radius: 10px $gray;
-// }
 .btnSDiv{
     text-align:center;
      padding-top: 30px;
@@ -54,7 +39,6 @@
 .Sblock{
        height: 280px;
        margin: 10px;
-    //    display: flex;
        flex-wrap: wrap;
        justify-content:center ;
        align-items: center;
@@ -62,12 +46,6 @@
        margin-top: 20px;
        background-color: $offwhite;
 }
-// .Static{
-//     height: 100px;
-//     margin-top: 10px;
-//     // padding: 20px;
-//     text-align: center;
-// }
 .Sheading{
     text-align: center;
     padding-top: 25px;
@@ -157,9 +135,6 @@ color: $mainly-blue;
     color: $txt-white !important;
     margin-top:30px;
   }
-// .cardPic{
-//     padding: 20px;
-// }
 .svg1{
   padding: 15px;
 }
@@ -167,20 +142,3 @@ color: $mainly-blue;
     fill: rgb(254, 255, 255) !important;
 }
 
-// .request{
-//     position: relative;
-//     background: $gray;
-//     border-radius: 5px;
-//     width: 24%;
-//     // font-family: 'Roboto';
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 24px;
-//     line-height: 35px;
-//     left: 38%;
-//     top: 40px;
-//     bottom: 40px;
-//     text-align: center;
-//     justify-content: center;
-//     color: $txt-white;
-// }

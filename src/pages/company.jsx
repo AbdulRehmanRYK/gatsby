@@ -9,9 +9,9 @@ const Companypage = () => {
 	return (
 		<>
 		<LayoutWrapper>
-			<Aboutpage></Aboutpage>
+			<Aboutpage />
 				<Container>
-					<Formpage></Formpage>
+					<Formpage />
 				</Container>
 		</LayoutWrapper>
 			

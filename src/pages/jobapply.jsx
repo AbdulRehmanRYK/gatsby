@@ -12,8 +12,8 @@ const Jobapply = () => {
 		<>
 		<LayoutWrapper>
             <div>
-				<CareerstartPage></CareerstartPage>
-				<JobFormpage></JobFormpage>
+				<CareerstartPage />
+				<JobFormpage />
             </div>
 		</LayoutWrapper>
 			

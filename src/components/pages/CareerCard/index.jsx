@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import {Row,Col } from "react-bootstrap";
-import {Form, Input} from "antd";
 import * as styles from './styles.module.scss';
 const InfoCard=()=>{
     return(

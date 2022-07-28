@@ -8,8 +8,6 @@
 .mainmobile1{
     margin: 0px;
     justify-content:space-evenly;
-    // margin:10px;
-    // padding-bottom: 100px;
 }
 .mainmobilerow{
     background-color: $pink; 
@@ -42,13 +40,8 @@
 .mobpic{
     text-align: center;
    padding-bottom: 20px;
-   padding: 30px;
-
-    
+   padding: 30px; 
 }
-// .picststic{
-//     // margin-top: -15px;
-// }
 .mobtool{
     font-style: normal;
     font-weight: 400;
@@ -56,21 +49,17 @@
     line-height: 28px;
     text-align: start;
     color: $txt-white;
-    // padding: 20px;
      margin-left: 15px;
 }
 .mobblock{
-    // width: 18%;
      height: 147px;
     width: 160px;
-    // margin: 10px !important;
     display: flex;
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
     margin: 15px;
-    // padding: 10px;
     background-color: $offwhite;
 }
 @media screen and (max-width:572px){
@@ -81,7 +70,6 @@
 .mobstatic{
     height: 100px;
     margin-top: 10px;
-    // padding: 20px;
     text-align: center;
 }
 .mobheading{

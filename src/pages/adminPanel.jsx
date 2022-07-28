@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react"
 import LayoutWrapper from "components/layout/LayoutWrapper"
-import {  Container } from "react-bootstrap"
 import AddBtn from "components/pages/AddBtn"
 import InfoCard from "components/pages/InfoCard"
 import firebase from '../config/firebase';

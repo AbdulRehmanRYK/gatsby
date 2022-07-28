@@ -126,10 +126,6 @@ const ProjectCard=(props)=>{
                                         )
                                         }
                                     })}
-                                    {/* <li className="pcListItem">Worked with NoSQL and AWS Dynamo DB (optional)</li>
-                                    <li className="pcListItem">Knows and implemented CI/CD</li>
-                                    <li className="pcListItem">Other backend expectations like strong DB skills and optimization of code etc</li>
-                                    <li className="pcListItem">Experience in Design patterns</li> */}
                                 </ul>
                             </div>
                             <div className="pcListMain">
