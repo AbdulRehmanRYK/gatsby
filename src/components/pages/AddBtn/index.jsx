@@ -1,6 +1,5 @@
 import React,{useState} from "react";
-import { Container,Row,Col,Button,Modal } from "react-bootstrap";
-import {Form, Input} from "antd";
+import { Container,Modal } from "react-bootstrap";
 import * as styles from './styles.module.scss';
 import firebase from '../../../config/firebase';
 const LoginForm=(props)=>{
@@ -19,8 +18,6 @@ const LoginForm=(props)=>{
         setShowProjectModal(false);
         setProjectObj({});   
     }
-    // const handleModalShow=()=>{
-    // }
     const saveJobChanges=()=>{
         setShowJobModal(false);
         firebase.firestore().collection('jobs').add(jobObj)
@@ -123,13 +120,6 @@ const LoginForm=(props)=>{
                 projectTags:'',
                 projectTechnology:'',
             })
-        //     firebase.firestore().collection('projects').add({
-        //         projectTitle:'Project Name',
-        //         projectCategory:'2-5 Years - Experience',
-        //         projectDescription:'Know and have implemented serverless architecture. Worked with NoSQL and AWS Dynamo DB (optional).Knows and implemented CI/CD.Other backend expectations like strong DB skills and optimization of code etc.Experience in Design patterns.',
-        //         projectTags:'Node js, MongoDB',
-        //         projectTechnology:'Nodejs,Reactjs',
-        //     })
         }
     }
 
@@ -155,7 +145,6 @@ const LoginForm=(props)=>{
                                 centered
                                 show={showJobModal}
                                 onHide={handleJobModalClose}
-                                // dialogClassName="modalMain"
                                 size='xl'
                             >
                                 <Modal.Dialog

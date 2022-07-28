@@ -1,7 +1,6 @@
 import React from "react";
 import { Container,Row, Col } from "react-bootstrap";
 import * as styles from './styles.module.scss'
-// import { StaticImage } from "gatsby-plugin-image";
 const Welcome=()=>{
     
 

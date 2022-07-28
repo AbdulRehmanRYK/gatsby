@@ -11,12 +11,12 @@ const Servicespage = () => {
 	return (
 		<>
 		<LayoutWrapper>
-			<Webpage></Webpage>
-			<Mobilepage></Mobilepage>
-			<Ecommercepage></Ecommercepage>
-			<Gamepage></Gamepage>
-			<UserExppage></UserExppage>
-			<Formpage></Formpage> 	 
+			<Webpage />
+			<Mobilepage />
+			<Ecommercepage />
+			<Gamepage />
+			<UserExppage />
+			<Formpage /> 	 
 		</LayoutWrapper>	
 		</>
 	)

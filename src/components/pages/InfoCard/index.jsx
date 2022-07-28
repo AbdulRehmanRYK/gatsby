@@ -266,14 +266,7 @@ const InfoCard=(props)=>{
                                         </button>
                                     <button className="updateJob">
                                         <span className="updateJobTxt mx-4"
-                                            onClick={saveChanges}
-                                            style={{
-                                                // fontWeight:'400',
-                                                // fontSize:'16px',
-                                                // textAlign:'center',
-                                                // color:'#FFFFFF',
-                                            }}
-                                            >
+                                            onClick={saveChanges}>
                                                 Save Changes
                                             </span>
                                     </button>

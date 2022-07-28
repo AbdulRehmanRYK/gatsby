@@ -6,9 +6,9 @@ const Login = () => {
 	return (
 		<>
 			<LayoutWrapper>
-			<Container>
-				<LoginForm/>
-			</Container>
+				<Container>
+					<LoginForm />
+				</Container>
 		</LayoutWrapper>
 		</>
 	)
