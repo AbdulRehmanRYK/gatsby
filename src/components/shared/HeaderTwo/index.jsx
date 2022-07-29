@@ -49,14 +49,13 @@ const HeaderTwo=() =>{
                 </g>
               </svg>
             </a>
-           
         {/* <StaticImage onClick={()=>{navigate('/')}} href="/" src="../../../assets/svgs/mercurysolsLogo.svg" alt="" className="media"  width={width}/> */}
-             <ul className={active} >          
-                <li className="nav_item"><a href="/company" className={(useclick===1)?"nav_linkActive":"nav_link"} onClick={()=>{Setuseclick(1)}}>COMPANY</a></li>
-                <li className="nav_item"><a href="/services" className="nav_link" onClick={()=>{Setuseclick(2)}}>SERVICES</a></li>
-                <li className="nav_item"><a href="/projects"className="nav_link" onClick={()=>{Setuseclick(3)}}>PROJECTS</a></li>
-                <li className="nav_item"><a href="/iptv" className="nav_link" onClick={()=>{Setuseclick(4)}}>IPTV</a></li>
-                <li className="nav_item"><a href="/career" className="nav_link" onClick={()=>{Setuseclick(5)}}>CAREER</a></li>
+             <ul className={active} >       
+                <li className="nav_item" ><a href="/company" className={(useclick===1)?"nav_linkActive":"nav_link"} onClick={()=>{Setuseclick(1)}}>COMPANY</a></li>
+                <li className="nav_item"><a href="/services" className="nav_link" onClick={()=>{Setuseclick(1)}}>SERVICES</a></li>
+                <li className="nav_item"><a href="/projects"className="nav_link" onClick={()=>{Setuseclick(1)}}>PROJECTS</a></li>
+                <li className="nav_item"><a href="/iptv" className="nav_link" onClick={()=>{Setuseclick(1)}}>IPTV</a></li>
+                <li className="nav_item"><a href="/career" className="nav_link" onClick={()=>{Setuseclick(1)}}>CAREER</a></li>
                 {/* <li className="nav_item"><a href="/jobapply" className="nav_link" onClick={()=>{Setuseclick(6)}}>JOB APPLY</a></li> */}
              </ul>
               <Button className="headerbtn" onClick={()=>{navigate('/login/')}}>
