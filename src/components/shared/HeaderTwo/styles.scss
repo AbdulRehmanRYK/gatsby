@@ -16,7 +16,6 @@ body{
 .nav_logoo{
     margin-left: 50px;
 }
-
 .nav_link{
     text-decoration: none;
     color: $primary!important;
@@ -45,7 +44,8 @@ body{
     font-style: normal;
     // color: rgb(93, 230, 30);
 }
-.nav_link:hover {
+.nav_link:hover,
+.nav_link:active {
     color: $cyan !important;
     transition: 0.5s ease-in;
     // padding-bottom: 5px;
