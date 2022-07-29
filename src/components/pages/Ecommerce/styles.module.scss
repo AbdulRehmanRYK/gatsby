@@ -16,9 +16,9 @@
     background-color: $blue;
     
 }
-.ecommsvg1{
-    margin-top: 15px;
-}
+// .ecommsvg1{
+//     margin-top: 15px;
+// }
 .Ecom_heading{
     font-style: normal;
     font-size: 3.5rem;
@@ -45,8 +45,7 @@
     text-align: center;
    padding-bottom: 20px;
    padding: 30px;
-
-    
+     margin-top: 15px;
 }
 // .picststic{
 //     // margin-top: -15px;
@@ -74,16 +73,10 @@
     // padding: 10px;
     background-color: $offwhite;
 }
-@media screen and (max-width:572px){
-    .Ecomblock{
-        margin: 30px !important;
-    }
-}
-// .Ecomstatic{
-//     height: 100px;
-//     margin-top: 10px;
-//     // padding: 20px;
-//     text-align: center;
+// @media screen and (max-width:572px){
+//     .Ecomblock{
+//         margin: 30px !important;
+//     }
 // }
 .Ecomheading{
     text-align: center;

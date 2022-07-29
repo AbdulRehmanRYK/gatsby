@@ -1,3 +1,4 @@
+import { navigate } from "gatsby";
 import React,{useState} from "react";
 import {Row,Col } from "react-bootstrap";
 import * as styles from './styles.module.scss';
@@ -42,7 +43,7 @@ const InfoCard=()=>{
                                 </div>
                             </div>
                             <div className={styles.icBtns}>
-                                <button className={styles.icDeleteBtn}>Apply Now</button>
+                                <button onClick={()=>{navigate('/jobapply')}} className={styles.icDeleteBtn}>Apply Now</button>
                             </div>
                         </div>
                     </Col>

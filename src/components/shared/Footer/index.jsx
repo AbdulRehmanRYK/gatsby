@@ -3,9 +3,8 @@ import * as styles from "./styles.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
 import Facebook from "assets/icons/Facebook"
 import Instagram from "assets/icons/Instagram"
-import Pinterest from "assets/icons/Pinterest"
-import YouTube from "assets/icons/YouTube"
-import { StaticImage } from "gatsby-plugin-image"
+import Twitter from "assets/icons/twitter"
+import Linkedin from "assets/icons/linkedin"
 
 
 const Footer = () => {
@@ -33,17 +32,17 @@ const Footer = () => {
 						<Row>
 							<Col>
 								<div className={styles.divroww}>
-									<a href="#" target="_blank" className={styles.social_icon}>
+									<a href="https://www.facebook.com/mercuryofficials/" target="_blank" className={styles.social_icon}>
 										<Facebook />
 									</a>
 									<a href="#" target="_blank" className={styles.social_icon}>
-										<YouTube />
+										<Twitter />
 									</a>
-									<a href="#" target="_blank" className={styles.social_icon}>
+									<a href="https://www.instagram.com/mercuryofficials/" target="_blank" className={styles.social_icon}>
 										<Instagram />
 									</a>
-									<a href="#" target="_blank" className={styles.social_icon}>
-										<Pinterest />
+									<a href="https://www.linkedin.com/company/mercuryofficials/" target="_blank" className={styles.social_icon}>
+										<Linkedin />
 									</a>
 								</div>
 							</Col>
@@ -58,7 +57,7 @@ const Footer = () => {
 							<div className="d-flex forcenter">
 									{/* <StaticImage className={styles.picc} src="../../../assets/images/email.png" alt="" /> */}
 									<span className="mt-1">
-										<svg width="20" height="19" viewBox="0 0 24 19" 		fill="none" xmlns="http://www.w3.org/2000/svg">
+										<svg width="18" height="19" viewBox="0 0 24 19" 		fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M21.75 0C22.9922 0 24 1.02973 24 2.3C24 3.02354 23.6672 3.70396 23.1 4.14L12.9 11.96C12.3656 12.3673 11.6344 12.3673 11.1 11.96L0.9 4.14C0.333422 3.70396 0 3.02354 0 2.3C0 1.02973 1.00734 0 2.25 0H21.75ZM10.2 13.1867C11.2688 14.006 12.7312 14.006 13.8 13.1867L24 5.36667V15.3333C24 17.0248 22.6547 18.4 21 18.4H3C1.34297 18.4 0 17.0248 0 15.3333V5.36667L10.2 13.1867Z" fill="white"/>
 									</svg>
 									</span>
@@ -68,7 +67,7 @@ const Footer = () => {
 							</div>
 							<div className="d-flex">
 								<span className="mt-1">
-										<svg width="20" height="19" viewBox="0 0 24 19" 		fill="none" xmlns="http://www.w3.org/2000/svg">
+										<svg width="18" height="19" viewBox="0 0 24 19" 		fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M21.75 0C22.9922 0 24 1.02973 24 2.3C24 3.02354 23.6672 3.70396 23.1 4.14L12.9 11.96C12.3656 12.3673 11.6344 12.3673 11.1 11.96L0.9 4.14C0.333422 3.70396 0 3.02354 0 2.3C0 1.02973 1.00734 0 2.25 0H21.75ZM10.2 13.1867C11.2688 14.006 12.7312 14.006 13.8 13.1867L24 5.36667V15.3333C24 17.0248 22.6547 18.4 21 18.4H3C1.34297 18.4 0 17.0248 0 15.3333V5.36667L10.2 13.1867Z" fill="white"/>
 									</svg>
 									</span>
@@ -79,7 +78,7 @@ const Footer = () => {
 							</div>
 							<div className="d-flex">
 								<div>
-									<svg width="16" height="27" viewBox="0 0 19 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<svg width="14" height="27" viewBox="0 0 19 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M15.3409 0H3.40909C1.5261 0 0 1.51084 0 3.375V23.625C0 25.4892 1.5261 27 3.40909 27H15.3409C17.2239 27 18.75 25.4892 18.75 23.625V3.375C18.75 1.51084 17.2212 0 15.3409 0ZM9.375 25.3125C8.42951 25.3125 7.67045 24.561 7.67045 23.625C7.67045 22.689 8.42951 21.9375 9.375 21.9375C10.3205 21.9375 11.0795 22.689 11.0795 23.625C11.0795 24.561 10.3232 25.3125 9.375 25.3125ZM15.3409 3.375V20.25H3.40909V3.375H15.3409Z" fill="white"/>
 									</svg>
 
@@ -89,7 +88,7 @@ const Footer = () => {
 							</div>
 							<div className="d-flex">
 								<div>
-									<svg width="18" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<svg width="16" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M23.9648 18.14L22.8748 22.8647C22.7217 23.5327 22.1346 24 21.4469 24C9.61966 23.9991 0 14.3808 0 2.55483C0 1.86768 0.467341 1.2799 1.13542 1.12756L5.86087 0.037774C6.54906 -0.121687 7.25225 0.235483 7.53821 0.887106L9.71904 5.97279C9.97398 6.57182 9.80202 7.26975 9.29807 7.68129L6.77408 9.7076C8.36704 12.9521 11.0054 15.5901 14.2513 17.1838L16.3178 14.662C16.7251 14.1567 17.4284 13.9819 18.0275 14.2414L23.1139 16.4214C23.7257 16.7432 24.1242 17.4556 23.9648 18.14Z" fill="white"/>
 									</svg>
 
@@ -101,7 +100,7 @@ const Footer = () => {
 					</Col>
 					<Col className="text-center text-sm-center" xs={12} sm={6} md={4} >
 						{/* <StaticImage className={styles.mapimage} src="../../../assets/images/location.png" alt="" /> */}
-						<svg className={styles.mapimage} width="24" height="40" viewBox="0 0 30 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<svg className={styles.mapimage} width="20" height="50" viewBox="0 0 30 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M13.1484 38.837C9.07031 33.8423 0 21.7369 0 14.9373C0 6.68756 6.71562 0 15 0C23.2812 0 30 6.68756 30 14.9373C30 21.7369 20.8594 33.8423 16.8516 38.837C15.8906 40.0273 14.1094 40.0273 13.1484 38.837ZM15 19.9164C17.7578 19.9164 20 17.6836 20 14.9373C20 12.191 17.7578 9.9582 15 9.9582C12.2422 9.9582 10 12.191 10 14.9373C10 17.6836 12.2422 19.9164 15 19.9164Z" fill="white"/>
 						</svg>
 
