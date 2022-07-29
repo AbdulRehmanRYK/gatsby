@@ -13,7 +13,7 @@
     background-color: $pink; 
 }
 .mobsvg1{
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 .mob_heading{
     color: $offwhite;
@@ -41,6 +41,7 @@
     text-align: center;
    padding-bottom: 20px;
    padding: 30px; 
+   margin-top: 28px;
 }
 .mobtool{
     font-style: normal;
@@ -62,11 +63,11 @@
     margin: 15px;
     background-color: $offwhite;
 }
-@media screen and (max-width:572px){
-    .mobblock{
-        margin: 30px !important;
-    }
-}
+// @media screen and (max-width:572px){
+//     .mobblock{
+//         margin: 30px !important;
+//     }
+// }
 .mobstatic{
     height: 100px;
     margin-top: 10px;

@@ -48,12 +48,14 @@ body{
 .nav_link:hover {
     color: $cyan !important;
     transition: 0.5s ease-in;
+    // padding-bottom: 5px;
+    // border-bottom: 2px solid;
     
 }
-.nav_link:active::after {
-    color: red !important;
-    border-bottom: 2px solid $primary;
-}
+// .nav_link:active::after {
+//     color: red !important;
+//     border-bottom: 2px solid $primary;
+// }
 .navv{
     display: flex;
     align-items: center;
@@ -185,7 +187,7 @@ body{
         margin-right: 15px;
     }
     .nav_menue{
-        top: 6vh !important;
+        top: 5.5vh !important;
     }
 }
 @media screen and (max-width:838px) {

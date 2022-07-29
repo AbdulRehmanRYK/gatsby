@@ -52,6 +52,7 @@
      margin-top: 8px;
 }
 .cardText{
+   font-family: 'Roboto';
     font-size:1.6rem;
     font-weight: 500; 
 }
@@ -141,4 +142,11 @@ color: $mainly-blue;
 .card:hover svg path{
     fill: rgb(254, 255, 255) !important;
 }
+.card:hover svg .svg2{
+    fill: rgba(24, 218, 218, 0) !important;
+    stroke:#ede9e8 !important;
+}
+// .card:hover .cardPic{
+//     fill: rgb(254, 255, 255) !important;
+// }
 

@@ -17,8 +17,8 @@
     margin: 0px !important;
     justify-content:center;
     padding-bottom: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
+    // padding-left: 10px;
+    // padding-right: 10px;
 }
 .mainRow1{
     margin: 0px !important;
@@ -34,7 +34,8 @@
     line-height: 63px;
     text-align: center;
     color:$txt-white;
-    padding-top: 40px;
+    padding-top: 50px;
+    margin-bottom: 0px !important;
     // padding-bottom: 20px;
 }
 .Webparagraph{
@@ -47,6 +48,7 @@
     text-align: start;
     color: $txt-white;
     padding: 20px;
+    margin-top: 10px;
  }
 .Webpic{
     text-align: center;
@@ -84,15 +86,13 @@
     background-color: $offwhite;
 }
 @media screen and (max-width:572px){
-    .webblock{
-        margin: 30px !important;
-    }
-}
-@media screen and (max-width:572px){
-    .cardsmainRow{
-       padding-left: 10px;
-       padding-right: 10px;
-    }
+    // .webblock{
+    //     margin: 30px !important;
+    // }
+    //  .cardsmainRow{
+    //    padding-left: 10px !important;
+    //     padding-right: 10px !important;
+    //  }
 }
 
 // .paddng{
